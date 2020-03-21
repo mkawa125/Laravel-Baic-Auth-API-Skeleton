@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Inventory management system - API</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -45,21 +45,31 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 30px;
+                font-family: 'Courier New', Courier, monospace
             }
 
+            .footer{
+                color: #636b6f;
+                padding: 0 15px;
+                font-size: 13px;
+                font-weight: 400;
+                text-decoration: none;
+                font-family: 'Courier New', Courier, monospace
+            }
             .links > a {
                 color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
+                padding: 0 15px;
+                font-size: 15px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                font-family: 'Courier New', Courier, monospace
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 55px;
             }
         </style>
     </head>
@@ -86,9 +96,12 @@
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/mkawa125/inventory-api">GitHub</a>
+                </div>
+
+                <div class="footer" style="margin-top:80px; text-decoration:none">
+                   Powered by <a href="http://mkawa.host" style="text-decoration:none">mkawa.host</a>
                 </div>
             </div>
         </div>
